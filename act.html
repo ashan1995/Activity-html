@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formexe</title>
+</head>
+<body bgcolor="f0dd3e">
+<form>
+<table width="50%" height="250">
+<tr>
+<td>
+<label for="familyName">Family name</label>
+</td>
+<td>
+<input type="text" name="familyName" id="familyName" placeholder="Family name" required>
+</td>
+</tr>
+
+<tr>
+	<td>
+		<label for="otherName">Other name</label>
+	</td>
+	<td>
+		<input type="text" name="otherName" id="otherName" placeholder="Other name">
+	</td>
+	</tr>
+	<tr>
+		<td><label for="Address">Address</label></td>
+		<td><input type="text" name="address" id="address" placeholder="Address"></td>
+	</tr>
+	<tr>
+	<td><label for="province">Province</label></td>
+	<td><select id="province" name="province" placeholder="Select your province">
+		<option value="Western">Western</option>
+		<option value="Southern">Southern</option>
+		<option value="Eastern">Eastern</option>
+		<option value="Northen">Northen</option>
+		<option value="Uva">Uva</option>
+		<option value="Sabaragamuwa">Sabaragamuwa</option>
+		<option value="North Central">North Central</option>
+		<option value="Central">Central</option>
+		<option value="North Western">North Western</option>
+	</select></td>
+	</tr>
+</table>
+
+<table width="85%" height="400">
+	<tr>
+	<td><label>Course info On:</label></td>
+	<td><input type="checkbox" name="eng" value="Engineering">Engineering<br>
+	<input type="checkbox" name="it" value="IT">IT<br>
+	<input type="checkbox" name="law" value="Law">Law<br>
+	<input type="checkbox" name="med" value="Medicine">Medicine<br>
+	<input type="checkbox" name="nur" value="Nursing">Nursing</td>
+	</tr>
+
+	<tr>
+		<td><label>Degree</label></td>
+		<td>
+			<input type="radio" name="deg" value="Diploma">Diploma<br>
+			<input type="radio" name="deg" value="Degree">Degree<br>
+			<input type="radio" name="deg" value="Honours">Honours<br>
+			<input type="radio" name="deg" value="Masters">Masters<br>
+			<input type="radio" name="deg" value="PhD">PhD
+		</td>
+	</tr>
+
+	<tr align="center">
+		<td><label for="comments">Comments</label></td>
+		<td><textarea name ="message" id="comments" rows="5" cols="100"></textarea><br>
+		<input type="submit" value="submit">&nbsp;&nbsp;&nbsp;&nbsp;
+		<input type="reset" value="reset"><br>
+		</td>
+	</tr>
+
+	
+</table>
+</form>
+</body>
+</html>
